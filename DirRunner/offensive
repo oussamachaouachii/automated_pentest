@@ -1,0 +1,5 @@
+#!/bin/bash
+
+a=$(python3 DirRunner.py dir -u $1 -w /usr/share/wordlists/dirb/common.txt -s 200,301)
+echo $a
+

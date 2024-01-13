@@ -1,0 +1,7 @@
+#!/bin/bash
+
+b=$( python3 ./DirRunner/robots.py $1)
+echo $b
+c=$(python3 ./DirRunner/internal_link.py $1)
+echo $c
+
